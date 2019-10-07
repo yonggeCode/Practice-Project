@@ -18,5 +18,20 @@ export default new Router({
       name: 'layout',
       component: () => import('@Element/layout'),
     },
+    {
+      path: '/container',
+      name: 'container',
+      component: () => import('@Element/container'),
+    },
+    {
+      path: '/button',
+      name: 'button',
+      component: () => import('@Element/button'),
+    },
+    {
+      path: '/link',
+      name: 'link',
+      component: () => import('@Element/link'),
+    },
   ],
 });
